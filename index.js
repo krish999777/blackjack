@@ -34,7 +34,7 @@ function startGame() {
     const input=Number(inputBtn.value)
     if(input===0||(Number.isNaN(input))||input>chips)
     {
-        alert("ENTER VALID NUMBER")
+        alert("Enter Valid Number")
         return
     }
     bet=input
@@ -81,5 +81,10 @@ function newCard() {
         sum += card
         cards.push(card)
         renderGame()        
+    }
+    else
+    {
+        alert("Game is over. Click Start Game")
+        return
     }
 }
