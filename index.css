@@ -26,6 +26,12 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     margin-top: 2px;
+}
+#input-btn{
+    background-color:rgb(157, 152, 115);
+    padding:5 10;
+    color:016f32;
+    border-radius:8px;
 }
